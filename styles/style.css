@@ -1,3 +1,6 @@
+* {
+  padding: 0;
+}
 body {
   margin: 0 auto;
   max-width: 1260px;
@@ -14,6 +17,9 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
+}
+.icon {
+  font-size: 1.3em;
 }
 .nav-items {
   display: flex;
@@ -89,3 +95,19 @@ header img {
   margin: 20px 0;
   border-radius: 10px;
 }
+/* Facts Container */
+.fact-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+.fact-card {
+  margin: 5px 10px;
+  padding: 20px 20px;
+  border: 1px solid #ff900e;
+  border-radius: 15px;
+  width: 180px;
+  height: auto;
+  text-align: center;
+}
+/* Sponsors Container */
